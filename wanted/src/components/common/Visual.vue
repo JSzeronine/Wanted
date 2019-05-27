@@ -335,7 +335,7 @@ export default {
                 $mL : 60;
                 $wW : 768 - (( $mL * 2 ) / 2 );
                 margin-left: pImg( $mL );
-                li{ width: pImg( $wW ); background-color: rgba( 0, 0, 0, 0 ); padding: 0 pImg( $mL / 3, $wW ); 
+                li{ width: pImg( $wW ); background-color: rgba( 0, 0, 0, 0 ); padding: 0 pImg( $mL / 3, $wW ); left: pImg( $wW * 2 );
                     a{ border-radius: 5px; overflow: hidden; border: 1px solid #f0f0f0;
                         .bx_image{ height: 160px; }
                         .info_container{ width: 100%; position: relative; left: 0px; top: 0px; margin-top: 0px; padding: 0;
