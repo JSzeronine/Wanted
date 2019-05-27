@@ -17,6 +17,9 @@ Visual.vue로 component화 하였습니다.
 VanillaJS을 최대한 사용하였고,
 모션은 TweenMax 자바스크립트 라이브러리를 사용하였습니다.
 
+수정사항 20190527
+- 무한 루프 데이터 조작중 버그 수정.
+
 ```
 
 [http://tech3.adqua.co.kr/](http://tech3.adqua.co.kr/)
