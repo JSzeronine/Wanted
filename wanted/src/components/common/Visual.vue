@@ -9,7 +9,7 @@
             @touchmove="touchMoveListener" 
             @touchend="touchEndListener">
             <li v-for="( item, index ) in setData.listData" ref="items" :key="index">
-                <a :href="item.url" @click="linkClick">
+                <a :href="item.info.url" @click="linkClick">
                     <div class="bx_image" :style="{ backgroundImage : 'url(' + item.info.image + ')' }"></div>
                     <div class="info_container" ref="info">
                         <div class="info_content">
@@ -42,7 +42,6 @@
 
 <script>
 import { TweenMax } from "gsap";
-import { setTimeout, clearTimeout, setInterval, clearInterval } from 'timers';
 
 export default {
     data()
@@ -270,7 +269,7 @@ export default {
 
     .visual{ overflow: hidden; height: 300px; 
         ul{ position: relative;
-            li{ width: 100%; height: 300px; position: absolute; left: 0%;
+            li{ width: 100%; height: 300px; position: absolute; left: 200%;
                 a{ text-decoration: none; display: block; width: 100%; height: 100%; position: relative; 
                     .bx_image{ background-position: center; background-size: cover; width: 100%; height: 100%; background-repeat: no-repeat; }
                     .info_container{ position: absolute; left: 0px; top: 0px; width: 100%; margin-top: 132px; opacity: 1;
