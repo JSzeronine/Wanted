@@ -1,0 +1,4 @@
+@function pImg( $ts, $ps : 768 )
+{
+    @return ( $ts / $ps ) * 100%;
+}
