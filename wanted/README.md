@@ -22,4 +22,4 @@ li element를 최대 5개 만들어 재사용하게 제작 하였습니다.
 
 ```
 
-[TEST LINK : http://tech3.adqua.co.kr/](http://tech3.adqua.co.kr/)
+[http://tech3.adqua.co.kr/](http://tech3.adqua.co.kr/)
